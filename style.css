@@ -1,5 +1,12 @@
 
+.fade-out {
+        animation: fadeOut 2s forwards; /* Animation name, duration, and fill mode */
+    }
 
+    @keyframes fadeOut {
+        0% { opacity: 1; } /* Start with full opacity */
+        100% { opacity: 0; } /* End with no opacity */
+    }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates");
 html {
@@ -17,14 +24,7 @@ body {
 }
 
 h1 {
-  .fade-out {
-        animation: fadeOut 2s forwards; /* Animation name, duration, and fill mode */
-    }
-
-    @keyframes fadeOut {
-        0% { opacity: 1; } /* Start with full opacity */
-        100% { opacity: 0; } /* End with no opacity */
-    }
+  
   @import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700;900&display=swap");
 
 body {
